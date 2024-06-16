@@ -1,0 +1,170 @@
+.Users-card{
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cfc9c9;
+    height: 320px;
+    width: 250px;
+    align-items: center;  
+    box-sizing: border-box;
+    overflow: hidden;
+    gap: 1px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px ;
+    margin: 1px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 10px #828181 ;
+ 
+    
+}
+    
+.User-conted-hr{
+    width: 70%;
+    display:inline-block;
+    margin-bottom: 10px;
+   
+
+
+}
+.User-conted-hr1{
+    width: 70%;
+    display:inline-block;
+    margin-top: 5px;
+
+}
+.Users-card-title{
+display: flex;
+width: 250px;
+justify-content: center;
+background-color: #fff;
+padding: 10px;
+
+}
+.Users-card-title h1{
+    display: flex;
+    font-size: 21px;
+    color: #df3131;
+    gap:5px;
+    background-color: #fff;
+}
+
+.Users-card-conten-img{
+    display:inline-block;
+    border:1px solid;
+    box-sizing: border-box;
+    object-fit:cover;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%; 
+    overflow: hidden;  
+    
+
+
+}
+
+.Users-card-conten-img-img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    
+    
+   
+    
+ 
+    
+}
+.Users-Card-conten-item{
+  display: flex;
+  flex-direction: column;  
+    
+  
+}
+
+.Userd-Card-btn{
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    
+    
+   
+    
+
+
+}
+.btn-btn{
+    border: 1px solid #606160;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    background-color: #D85D5D;   
+    cursor: pointer;
+
+}
+.btn-btn1{
+    border: 1px solid #606160;
+    border-radius: 5px;
+    color: #403f3f;
+    font-size: 20px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    background-color: #ebe5e5;   
+   cursor: pointer;
+}
+.User-conten-items{
+    display: flex;
+    width: 100%;
+ 
+    
+
+}
+
+.Userd-items{
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   gap: 3px;
+   width: 100%;
+   margin-left: 5px;
+}
+
+.Userd-li{
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 20px;
+   
+  
+}
+.Userd-li1{
+    color: #828181;
+}
+
+.Userd-li2{
+    color: #828181;
+}
+
+.btn-btn:hover{
+    color: yellowgreen;
+    
+}

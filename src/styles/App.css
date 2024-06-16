@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    
+}
+body{
+    margin: 0px;
+    background-color:  #fff
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.Contenedor-Cards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.header h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.header button{
+    padding: 10px;
+    background-color: #D85D5D;;
+    border-radius: 8px;
+    color: #fff;
+  
+    transition: transform .5s,
+    box-shadow .5s;
+    cursor: pointer;
+
+    
+   
+}
+.header button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #f3b304 ;
+    transition: transform .5s,
+                 box-shadow .5s;
+
+    
+}
